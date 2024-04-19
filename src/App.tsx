@@ -1,16 +1,17 @@
-import { CustomerReviews } from "./Components/CustomerReviews";
-import { Footer } from "./Components/Footer";
-import { Hero } from "./Components/Hero";
-import { PopularProducts } from "./Components/PopularProducts";
-import { Services } from "./Components/Services";
-import { SpecialOffer } from "./Components/SpecialOffer";
-import { Subscribe } from "./Components/Subscribe";
-import { SuperQuality } from "./Components/SuperQuality";
+import { Nav } from "./Components/Nav";
+import { CustomerReviews } from "./Sections/CustomerReviews";
+import { Footer } from "./Sections/Footer";
+import { Hero } from "./Sections/Hero";
+import { PopularProducts } from "./Sections/PopularProducts";
+import { Services } from "./Sections/Services";
+import { SpecialOffer } from "./Sections/SpecialOffer";
+import { Subscribe } from "./Sections/Subscribe";
+import { SuperQuality } from "./Sections/SuperQuality";
 
 export default function App() {
   return (
     <main className="relative">
-      Nav
+      <Nav />
       <section className="xl:padding-1 wide:padding-r padding-b">
         <Hero />
       </section>
