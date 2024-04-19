@@ -11,7 +11,7 @@ export function Nav() {
         <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
           <li key={"home"}>
             <a
-              href={"/"}
+              href={"#home"}
               className="font-montserrat leading-normal text-lg text-slate-gray"
             >
               Home
@@ -19,7 +19,7 @@ export function Nav() {
           </li>
           <li key={"about"}>
             <a
-              href={"/"}
+              href={"#about"}
               className="font-montserrat leading-normal text-lg text-slate-gray"
             >
               About Us
@@ -27,7 +27,7 @@ export function Nav() {
           </li>
           <li key={"products"}>
             <a
-              href={"/"}
+              href={"#products"}
               className="font-montserrat leading-normal text-lg text-slate-gray"
             >
               Products
@@ -35,7 +35,7 @@ export function Nav() {
           </li>
           <li key={"contact"}>
             <a
-              href={"/"}
+              href={"#contact"}
               className="font-montserrat leading-normal text-lg text-slate-gray"
             >
               Contact Us
