@@ -21,14 +21,24 @@ import {
   thumbnailShoe3,
 } from "../assets/images";
 
-export const navLinks = [
+interface NavLink {
+  href: string;
+  label: string;
+}
+
+export const navLinks: NavLink[] = [
   { href: "#home", label: "Home" },
   { href: "#about-us", label: "About Us" },
   { href: "#products", label: "Products" },
   { href: "#contact-us", label: "Contact Us" },
 ];
 
-export const shoes = [
+interface Shoe {
+  thumbnail: string;
+  bigShoe: string;
+}
+
+export const shoes: Shoe[] = [
   {
     thumbnail: thumbnailShoe1,
     bigShoe: bigShoe1,
@@ -43,13 +53,24 @@ export const shoes = [
   },
 ];
 
-export const statistics = [
+interface Statistic {
+  value: string;
+  label: string;
+}
+
+export const statistics: Statistic[] = [
   { value: "1k+", label: "Brands" },
   { value: "500+", label: "Shops" },
   { value: "250k+", label: "Customers" },
 ];
 
-export const products = [
+interface Product {
+  imgURL: string;
+  name: string;
+  price: string;
+}
+
+export const products: Product[] = [
   {
     imgURL: shoe4,
     name: "Nike Air Jordan-01",
@@ -72,7 +93,13 @@ export const products = [
   },
 ];
 
-export const services = [
+interface Service {
+  imgURL: string;
+  label: string;
+  subtext: string;
+}
+
+export const services: Service[] = [
   {
     imgURL: truckFast,
     label: "Free shipping",
@@ -91,7 +118,14 @@ export const services = [
   },
 ];
 
-export const reviews = [
+interface Review {
+  imgURL: string;
+  customerName: string;
+  rating: number;
+  feedback: string;
+}
+
+export const reviews: Review[] = [
   {
     imgURL: customer1,
     customerName: "Morich Brown",
@@ -108,7 +142,12 @@ export const reviews = [
   },
 ];
 
-export const footerLinks = [
+interface FooterLink {
+  title: string;
+  links: { name: string; link: string }[];
+}
+
+export const footerLinks: FooterLink[] = [
   {
     title: "Products",
     links: [
@@ -139,7 +178,12 @@ export const footerLinks = [
   },
 ];
 
-export const socialMedia = [
+interface SocialMedia {
+  src: string;
+  alt: string;
+}
+
+export const socialMedia: SocialMedia[] = [
   { src: facebook, alt: "facebook logo" },
   { src: twitter, alt: "twitter logo" },
   { src: instagram, alt: "instagram logo" },
