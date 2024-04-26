@@ -6,7 +6,7 @@
 
 Projeto de uma landing page 2.0 da Nike.
 
-- Veja o projeto: [Live Preview]()
+- Veja o projeto: [Live Preview](https://nike-website-victtor.vercel.app/)
 
 ## ⚙️ Funcionalidades
 
