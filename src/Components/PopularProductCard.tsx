@@ -3,7 +3,7 @@ import { star } from "../assets/icons";
 interface Props {
   imgURL: string;
   name: string;
-  price: number;
+  price: string;
 }
 
 export function PopularProductCard({ imgURL, name, price }: Props) {
